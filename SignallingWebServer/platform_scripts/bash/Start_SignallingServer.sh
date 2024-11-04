@@ -20,7 +20,7 @@ if [ ! -z $IS_DEBUG ]; then
 	arguments+=" --inspect"
 fi
 
-arguments+=" --peerConnectionOptions=\"${peerconnectionoptions}\" --PublicIp=${publicip}"
+arguments+=" --peerConnectionOptions=\"${peerconnectionoptions}\""
 # Add arguments passed to script to arguments for executable
 arguments+=" ${cirruscmd}"
 
